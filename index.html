@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <style type="text/css" href="style.css"></style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -15,6 +15,7 @@
     <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
     <a href="#Hello_world" class="nav-link">Hello world</a>
     <a href="#Variables" class="nav-link">Variables</a>
+    <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
   </nav>
   <main id="main-doc">
     <section id="Introduction" class="main-section">
@@ -97,6 +98,20 @@
       "a" through "z" (lowercase).</p>
       <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as
       characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+    </section>
+    <section id="Declaring_variables" class="main-section">
+      <header>
+        <h2>Declaring variables</h2>
+      </header>
+      <p>You can declare a variable in three ways: With the keyword var. For example,</p>
+      <code>var x = 42.</code>
+      <p>This syntax can be used to declare both local and global variables. By simply assigning it a value. For example,</p>
+      <code>x = 42.</code>
+      <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant. With the
+      keyword let. For example,</p>
+      <code>let y = 13.</code><br>
+      <code>let y = 27.</code>
+      <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
     </section>
 
   </main>
